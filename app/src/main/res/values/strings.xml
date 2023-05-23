@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FartOsAndroid</string>
+    <string name="mostrarCartas">Mostrar cartas</string>
+    <string name="ocultarCartas">Ocultar cartas</string>
+    <string name="jugador_1">Jugador 1</string>
+    <string name="jugador_3">jugador 3</string>
+    <string name="jugador_2">jugador 2</string>
+    <string name="jugar">Jugar</string>
+    <string name="casella_especial_pots_decidir_que_el_jugador_seleccionat_avanci_5_caselles_o_retrocedeixi_5_caselles">
+        Casella Especial: Pots decidir que el jugador seleccionat avanci 5 caselles o retrocedeixi 5 caselles.</string>
+    <string name="selecciona_al_jugador">Selecciona al jugador:</string>
+
+</resources>

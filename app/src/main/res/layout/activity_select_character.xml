@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cards"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical"
+    tools:context=".Pantallas.SelectCharacter">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Player 1"
+            android:textAlignment="center"
+            android:textAppearance="@style/styleText"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="110dp"
+            android:src="@drawable/eni" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Player 2"
+            android:textAlignment="center"
+            android:textAppearance="@style/styleText"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="110dp"
+            android:src="@drawable/mario" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Player 3"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textAppearance="@style/styleText"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="110dp"
+            android:src="@drawable/marco" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/white"
+        android:text="Start"
+        android:textColor="@color/beix"
+        android:textSize="25sp" />
+</LinearLayout>
